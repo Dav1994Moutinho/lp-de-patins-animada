@@ -116,15 +116,13 @@ section.gallery {
 }
 
 
-/* MOBILE */
-/* MOBILE */
-/* MOBILE */    
+/* MOBILE */ 
 
 @media (width < 70em) {
     section.gallery {
-        max-width: 40rem;
+
         width: 100%;
-        padding-block: 1rem;
+        padding: 1rem;
 
         & header {
             display: flex;
@@ -143,6 +141,16 @@ section.gallery {
         & .content {
             display: flex;
             flex-wrap: wrap;
+            grid-template-areas: none;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+        }
+
+        & figure > img {
+            width: 40rem;
+            height: 25rem;
+            object-fit: cover;
         }
 
     }
