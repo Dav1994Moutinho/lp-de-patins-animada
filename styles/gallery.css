@@ -144,25 +144,7 @@ section.gallery {
             flex-wrap: wrap;
         }
 
-        & figure {
-            position: relative;
-            border-radius: 2.5rem;
-            overflow: hidden;
-            line-height: 0;
-        
-            animation: image-appear linear backwards, image-appear-hover linear backwards;
-            animation-timeline: view();
-            animation-range: 100px 300px;
-        
-            &[data-delay] {
-                animation-range: 150px 350px;
-            }
-        
-            & > img {
-                height: 20rem;
-                object-fit: cover;
-                transition: scale 500ms;
-            }        
-        }   
     }
 }
+
+
