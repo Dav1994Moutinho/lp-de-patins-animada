@@ -50,10 +50,12 @@
 
 @media (width < 70em) {
     .banner {
+        /* width: 100%; */
         padding-block: 1.7rem;
     
         & .scroller {
             padding-block: .7rem;
+            /* width: 100%; */
         }
     }
 }
