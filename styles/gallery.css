@@ -123,6 +123,7 @@ section.gallery {
 @media (width < 70em) {
     section.gallery {
         max-width: 40rem;
+        width: 100%;
         padding-block: 1rem;
 
         & header {
