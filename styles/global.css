@@ -48,6 +48,10 @@ a {
     text-decoration: none;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 html {
     zoom: 1;
 }
